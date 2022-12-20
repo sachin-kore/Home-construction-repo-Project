@@ -1,0 +1,56 @@
+.dropdown{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.dropdownlink{
+    font-size: 18px;
+    margin-bottom: 8px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    width: 200px;
+    background-color: lightgray;
+    color: blue;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.projecttext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+   
+}
+.dropContainer{
+    position: relative;
+}
+.down{
+    /* display: flex;
+    flex-direction: column;
+    z-index: 999;
+    top: 70px;
+    position: absolute;
+    right: 40px;
+    color: white;
+    margin-bottom: 5px;
+    font-size: 15px; */
+
+    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+    right: -25px;
+    z-index: 999;
+    background-color: gray;
+    padding: 10px;
+    gap: 7px;
+    width: max-content;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+
+}

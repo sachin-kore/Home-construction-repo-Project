@@ -1,0 +1,108 @@
+.about{
+    margin: 10px 30px;
+    display: flex;
+    gap: 80px;
+   
+}
+
+.about-span{
+    color: #17a2b8;
+}
+
+.about-p{
+    font-size: 20px;
+    color: lightgray;
+    
+}
+
+.about-h{
+    font-size: 40px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.ppp{
+    margin: 20px 0px;
+    font-size: 20px;
+}
+.about-middle{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border: 1px solid gray;
+    padding: 30px;
+    background-color: white;
+    color: black;
+    gap: 20px;
+    width: 550px;
+    height: max-content
+}
+
+.formTitle{
+    font-size: 25px;
+    color: white;
+    
+    
+}
+.form>input{
+    padding: 10px;
+    color: black;
+    border: 1px solid gray;
+    width: 100%;
+    outline: none;
+}
+.formbutton{
+    width: 100px;
+   padding: 5px;
+    background-color: green;
+    color: white;
+    border-radius: 2px;
+}
+.mywrap{
+    display: flex;
+}
+.selectors{
+    border: 1px solid gray;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.select-label{
+    color: black;
+}
+
+.contactDetails{
+    margin-top: 50px;
+    /* background-color: white; */
+    padding: 20px;
+    width: 500px;
+
+}
+.contacttexts{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 30px;
+}
+.text>p{
+    font-size: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.wrapper{
+    display: flex;
+    gap: 60px;
+    color: white;
+   
+}
+.icon{
+    color: green;
+}
