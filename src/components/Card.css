@@ -2,7 +2,6 @@
     margin: 10px 30px;
     display: flex;
     gap: 80px;
-   
 }
 
 .about-span{
@@ -24,10 +23,14 @@
     margin: 20px 0px;
     font-size: 20px;
 }
+.aboutleft{
+    margin-top: 20px;
+}
 .about-middle{
     color: white;
     display: flex;
     justify-content: space-around;
+    background-color: #00235A;
 }
 .form{
     display: flex;
@@ -39,7 +42,9 @@
     color: black;
     gap: 20px;
     width: 550px;
-    height: max-content
+    height: max-content;
+    margin-top: 20px;
+    
 }
 
 .formTitle{
@@ -47,6 +52,9 @@
     color: white;
     
     
+}
+.list{
+    color: black;
 }
 .form>input{
     padding: 10px;
@@ -65,12 +73,12 @@
 .mywrap{
     display: flex;
 }
-.selectors{
-    border: 1px solid gray;
-    color: black;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+.selectinput{
+width: 100%;
+border: 1px solid gray;
+padding: 10px;
+color: gray;
+   
 }
 .select-label{
     color: black;
@@ -88,6 +96,7 @@
     align-items: center;
     margin-bottom: 10px;
     gap: 30px;
+    color: green;
 }
 .text>p{
     font-size: 20px;

@@ -1,56 +1,82 @@
+.AnalyticContainer{
+    width: 80%;
+    height: calc(100vh - 80px);
+    color: rgb(94, 87, 87);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    gap: 40px;
 
-.about{
-width: 100%;
-height: 580px;
-display: flex;
-flex-direction: column;
-position: relative;
 }
-.about>img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0.1;
-    opacity: 0.5;
+.aboutDetailsleft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.aboutDetails>h1{
-    bottom: 10px;
-    position: absolute;
-    z-index: 999;
-    font-size: 40px;
-    font-weight: 500;
-    left: 50%;
+.aboutTitle{
+    font-size: 24px;
+    color: #17a2b8;
     font-weight: bold;
-    
 }
-.aboutDetails>p{
-    text-align: center;
-    font-size: 100px;
+.aboutDetailsright{
+    flex: 1;
 }
-.aboutwrapper{
-   display: flex;
-   width: 100%;
-   max-width: 1024px;
-   padding: 20px;
-   
+.AboutImg{
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
 }
 
-.aboutDetails{
+.newContainer{
+    width: 400px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+  
+}
+.formItems{
+    color: gray;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    color: white;
+    gap: 15px;
+    width: 100%;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+}
+.mainContainer{
+    background-color: #1E2A4D;
+    padding: 20px;
     height: max-content;
-    width: max-content;
-    
+   
+   
 }
-.aboutitems{
-    flex: 2;
+.inputField{
+    background-color: lightgray;
+    padding: 10px 5px;
+    width: 100%;
 }
-.aboutimg{
-    flex: 1;
+.aboutButton{
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    padding: 12px 10px;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10px;
 }
-.aboutitems>p{
-    font-size: 20px;
+.aboutH1{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.AboutLable{
+    font-size: 18px;
+    text-transform: capitalize;
 }

@@ -1,0 +1,85 @@
+.PricingContainer{
+    height: 100vh;
+}
+.wholeContainer{
+    width: 100%;
+    height: 100%;
+    
+}
+.ourpackage{
+    height: 300px;
+    background-color: #001659;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardsContainer{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.packageWrapper{
+    position: absolute;
+    top: -100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    margin: auto;
+}
+.firstBox{
+    width: 480px;
+    border: 6px  solid white;
+    border-top: 4px solid white;
+    padding: 10px;
+    height: max-content;
+    box-shadow:rgba(6, 6, 244, 0.2) 0px 7px 29px 0px;
+}
+.firstImg{
+    width: 100%;
+    object-fit: cover;
+}
+.firstBoxDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 40px;
+    color: #CC2323;
+    font-weight: bold;
+   
+    
+}
+.accordianItem{
+    margin: 20px 0px;
+}
+
+.hrtag{
+    border:1px solid lightgray;
+}
+.firstBoxBtn{
+    width: 100%;
+    background-color: #002459;
+    margin-top: 80px;
+    padding: 15px 0px;
+    color: white;
+}
+.firstBoxBtn:hover{
+    background-color: #4d6280;
+}
+.OrderedList{
+list-style: inside;
+}
+.OlList{
+    list-style-type: decimal;
+}
+

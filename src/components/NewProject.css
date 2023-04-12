@@ -1,15 +1,46 @@
-.newproject{
+.ContainerNew{
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: relative;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    padding: 20px;
+    background-color: black;
+    overflow-x: hidden;
+}
+.ourProjects{
+    /* background-color: #001659; */
+    height: 400px;
+    width: 100%;
+}
+.ourprojTitle{
+    height: 100%;
+    position: relative;
+    background-color: #001659;
+    font-size: 42px;
+    
+}
+.ourprojTitleheading{
+position: absolute;
+top: 50%;
+left: 45%;
+color: white;
+font-weight: bold;
+}
+.newproject{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 20px;
+
 }
 .projectsItems{
-    width: 600px;
+    width: 400px;
     height: 400px;
     border: 1px solid gray;
     margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .projectsItems>img{
     width: 100%;
@@ -17,20 +48,14 @@
     object-fit: cover;
 }
 
-.Container{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    color: white;
-    padding: 20px;
-}
+
 .slider{
     width: 100%;
     height: 100%;
     z-index: 999;
     position: sticky;
-    top: 10;
-    left: 50;
+    top: 40px;
+    left: 50px;
     width: 80vw;
     height: 80vh;
     display: flex;

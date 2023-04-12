@@ -10,6 +10,7 @@ import pic9 from './../assets/projectsPics/pic9.jpeg'
 import pic10 from './../assets/projectsPics/pic10.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleArrowLeft, faCircleArrowRight, faCircleXmark } from '@fortawesome/free-solid-svg-icons'
+import Layout from './layout/Layout'
 
 
 export const NewProject = () => {
@@ -40,7 +41,13 @@ export const NewProject = () => {
         seImageIndex(newIndex);
     }
     return (
-        <div className='Container'>
+
+        <Layout className='ContainerNew'>
+            <div className='ourProjects'>
+                <div className='ourprojTitle'>
+                    <h1 className='ourprojTitleheading'>Our Projects .</h1>
+                </div>
+            </div>
             {open && <div className='slider'>
                 <FontAwesomeIcon icon={faCircleXmark} className="close" onClick={() => setOpen(false)} />
                 <FontAwesomeIcon icon={faCircleArrowLeft} className="arrow" onClick={() => handledir("l")} />
@@ -50,10 +57,11 @@ export const NewProject = () => {
                 <FontAwesomeIcon icon={faCircleArrowRight} className="arrow" onClick={() => handledir("r")} />
             </div>}
             <div className='newproject'>
-                {images.map((pic, i) => <div className='projectsItems'>
+                {images.map((pic, i) => <div className='projectsItems' key={i}>
                     <img src={pic.src} onClick={() => handleClick(i)} />
                 </div>)}
             </div>
-        </div>
+        </Layout>
+
     )
 }

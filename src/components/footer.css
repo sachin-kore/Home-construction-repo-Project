@@ -1,0 +1,12 @@
+.myFooter{
+    background-color: #001659;
+    /* background-image: url("https://n.foxdsgn.com/industryo/wp-content/uploads/2020/08/Map.png"); */
+    /* background-position: center center;
+    background-repeat: no-repeat; */
+    color: white;
+    /* opacity: 0.7;
+    mix-blend-mode: overlay; */
+    /* transition: background 0.3s, border-radius 0.3s, opacity 0.3s; */
+    font-weight: bold;
+    border-top: 1px solid white;
+}
