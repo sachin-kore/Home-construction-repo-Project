@@ -1,11 +1,4 @@
-.PricingContainer{
-    height: 100vh;
-}
-.wholeContainer{
-    width: 100%;
-    height: 100%;
-    
-}
+
 .ourpackage{
     height: 300px;
     background-color: #001659;
@@ -18,22 +11,19 @@
     justify-content: center;
 }
 .cardsContainer{
-    position: relative;
-    height: 50vh;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     
 }
 .packageWrapper{
-    position: absolute;
-    top: -100px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     padding: 20px;
     margin: auto;
+    margin-top: -100px;
 }
 .firstBox{
     width: 480px;

@@ -7,25 +7,19 @@
     background-color: black;
     overflow-x: hidden;
 }
-.ourProjects{
-    /* background-color: #001659; */
-    height: 400px;
-    width: 100%;
-}
-.ourprojTitle{
+/* .ourprojTitle{
     height: 100%;
     position: relative;
-    background-color: #001659;
     font-size: 42px;
     
-}
-.ourprojTitleheading{
+} */
+/* .ourprojTitleheading{
 position: absolute;
 top: 50%;
 left: 45%;
 color: white;
 font-weight: bold;
-}
+} */
 .newproject{
 display: flex;
 flex-wrap: wrap;
@@ -56,8 +50,6 @@ gap: 20px;
     position: sticky;
     top: 40px;
     left: 50px;
-    width: 80vw;
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;

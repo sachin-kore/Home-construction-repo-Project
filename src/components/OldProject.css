@@ -8,12 +8,12 @@
     margin: 0 auto;
 }
 .oldprojectsItems{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     width: 500px;
     height: 500px;
     border: 1px solid gray;
-    margin: 5px;
+    margin: 5px; */
 }
 .oldprojectsItems>img{
     width: 100%;
